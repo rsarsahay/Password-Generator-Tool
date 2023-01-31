@@ -2,7 +2,7 @@
 The Password Generator Tool Creates a Random and customized Password for users that helps them to create a strong Password which provides greater security.
 In this project, the user has to select the password length and then click on the “Generate Password” button.
 It will show the generated password below. If the user clicks on the “Copy To Clipboard” button, then it will copy the password automatically.
-To build this project we will use the basic concept of python and libraries – Tkinter, pyperclip, random, string.
+To build this project I used the basic concept of python and libraries – Tkinter, pyperclip, random, string.
 Tkinter is a standard GUI library and is one of the easiest ways to build a GUI application.
 pyperclip module allows us to copy and paste text to and from the clipboard to your computer
 The random module can generate random numbers
@@ -45,7 +45,7 @@ Label() widget use to display one or more than one line of text that users can�
  ->The second loop will generate a random string of length entered by the user – 4 and add to the password variable.
    Here we minus 4 to the length of the user because we already generate the string of length 4.
    
-We have done this because we want a password which must contain an uppercase, a lowercase, a digit, and a special symbol.
+I have done this because I want a password which must contain an uppercase, a lowercase, a digit, and a special symbol.
 
 Now the password is set to the pass_str() variable.
  ->Button() widget used to display button on our window
@@ -57,10 +57,10 @@ Now the password is set to the pass_str() variable.
  -> pyperclip.copy() used to copy the text to clipboard
  
 Summary
- With these steps, we have successfully created a random password generator project using python.
- We used popular tkinter library to rendering graphics in our display window and we also learned about pyperclip and random library.
+ With these steps, I have successfully created a random password generator project using python.
+ I used popular tkinter library to rendering graphics in our display window and we also learned about pyperclip and random library.
 
- We learned how to create buttons, input textfield, labels, and spinbox. In this way, we successfully created
- our password generator python project. Hope you enjoyed it.
+ I learned how to create buttons, input textfield, labels, and spinbox. In this way, we successfully created
+ our password generator python project.
 
 
